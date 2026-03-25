@@ -19,7 +19,7 @@
     <name>Smart Wallet Backend</name>
 
     <properties>
-        <java.version>20</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
@@ -114,13 +114,13 @@
     <build>
         <plugins>
 
-            <!-- Compiler plugin configured for Java 20 -->
+            <!-- Compiler plugin configured for Java 17 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <release>20</release>
+                    <release>17</release>
                 </configuration>
             </plugin>
 
